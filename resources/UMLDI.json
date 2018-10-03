@@ -1,9 +1,10 @@
 {
   "_declaration": {
     "_attributes": {
-      "version": "1.0",
+      "version": 1,
       "encoding": "UTF-8"
-    }
+    },
+    "_parent": "_"
   },
   "xmi:XMI": {
     "_attributes": {
@@ -11,6 +12,7 @@
       "xmlns:uml": "http://www.omg.org/spec/UML/20131001",
       "xmlns:mofext": "http://www.omg.org/spec/MOF/20131001"
     },
+    "_parent": "_",
     "uml:Package": {
       "_attributes": {
         "xmi:type": "uml:Package",
@@ -18,16 +20,19 @@
         "name": "UMLDI",
         "URI": "http://www.omg.org/spec/UML/20161101/UMLDI"
       },
+      "_parent": "_",
       "packageImport": [
         {
           "_attributes": {
             "xmi:type": "uml:PackageImport",
             "xmi:id": "_packageImport.0"
           },
+          "_parent": "_",
           "importedPackage": {
             "_attributes": {
               "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#_0"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -35,10 +40,12 @@
             "xmi:type": "uml:PackageImport",
             "xmi:id": "_packageImport.1"
           },
+          "_parent": "_",
           "importedPackage": {
             "_attributes": {
               "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#_0"
-            }
+            },
+            "_parent": "_"
           }
         }
       ],
@@ -49,13 +56,16 @@
             "xmi:id": "UMLAssociationEndLabel",
             "name": "UMLAssociationEndLabel"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLAssociationEndLabel-_ownedComment.0",
               "annotatedElement": "UMLAssociationEndLabel"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Shows text about Properties that are Association ends."
             }
           },
@@ -66,13 +76,16 @@
               "name": "modelElement_type",
               "constrainedElement": "UMLAssociationEndLabel"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLAssociationEndLabel-modelElement_type-_ownedComment.0",
                 "annotatedElement": "UMLAssociationEndLabel-modelElement_type"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "modelElement must be an Association end."
               }
             },
@@ -81,10 +94,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLAssociationEndLabel-modelElement_type-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "not modelElement->forAll(association->isEmpty())"
               }
             }
@@ -94,7 +110,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLAssociationEndLabel-_generalization.0",
               "general": "UMLLabel"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -104,13 +121,16 @@
               "redefinedProperty": "UMLDiagramElement-modelElement",
               "association": "A_UMLAssociationEndLabel_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLAssociationEndLabel-modelElement-_ownedComment.0",
                 "annotatedElement": "UMLAssociationEndLabel-modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "Restricts UMLAssociationEndLabels to show only Properties (that are AssociationEnds, see constraint)."
               }
             },
@@ -118,7 +138,8 @@
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Property"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -128,13 +149,16 @@
             "xmi:id": "UMLAssociationOrConnectorOrLinkShape",
             "name": "UMLAssociationOrConnectorOrLinkShape"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLAssociationOrConnectorOrLinkShape-_ownedComment.0",
               "annotatedElement": "UMLAssociationOrConnectorOrLinkShape"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Shows shapes for binary relationships."
             }
           },
@@ -146,13 +170,16 @@
                 "name": "modelElement_mult",
                 "constrainedElement": "UMLAssociationOrConnectorOrLinkShape"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-modelElement_mult-_ownedComment.0",
                   "annotatedElement": "UMLAssociationOrConnectorOrLinkShape-modelElement_mult"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "UMLAssociationOrConnectorOrLinkShapes must have exactly one modelElement."
                 }
               },
@@ -161,10 +188,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-modelElement_mult-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement->size()=1"
                 }
               }
@@ -176,13 +206,16 @@
                 "name": "modelElement_type",
                 "constrainedElement": "UMLAssociationOrConnectorOrLinkShape"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-modelElement_type-_ownedComment.0",
                   "annotatedElement": "UMLAssociationOrConnectorOrLinkShape-modelElement_type"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement must be an Association, Connector, or InstanceSpecification with an Association classifier."
                 }
               },
@@ -191,10 +224,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-modelElement_type-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement->asSequence()->first().oclIsKindOf(Association) or modelElement->asSequence()->first().oclIsKindOf(Connector)\r\nor (       modelElement->asSequence()->first().oclIsKindOf(InstanceSpecification)\r\n      and (modelElement->asSequence()->first().oclAsType(InstanceSpecification).classifier->select(oclIsKindOf(Association))->size() > 0))"
                 }
               }
@@ -206,13 +242,16 @@
                 "name": "edge_association",
                 "constrainedElement": "UMLAssociationOrConnectorOrLinkShape"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-edge_association-_ownedComment.0",
                   "annotatedElement": "UMLAssociationOrConnectorOrLinkShape-edge_association"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "For diamond kind and an Association modelElement, the Association has exactly two memberEnds, and exactly two of the UMLEdges linked to the shape have those memberEnds as modelElements."
                 }
               },
@@ -221,10 +260,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-edge_association-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "(kind=UMLAssociationOrConnectorOrLinkShapeKind::diamond and modelElement->forAll(oclIsKindOf(Association))) implies\r\nlet association : Association = modelElement->any(true).oclAsType(Association) in\r\n   ((association.memberEnd->size() = 2) and\r\n      (sourceEdge.modelElement->union(targetEdge.modelElement)->select(em |  association.memberEnd->includes(em))->size()=2))"
                 }
               }
@@ -236,13 +278,16 @@
                 "name": "edge_instancespec",
                 "constrainedElement": "UMLAssociationOrConnectorOrLinkShape"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-edge_instancespec-_ownedComment.0",
                   "annotatedElement": "UMLAssociationOrConnectorOrLinkShape-edge_instancespec"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "For diamond kind and an InstanceSpecification modelElement, exactly one Association classifier of the InstanceSpecification has exactly two memberEnds and exactly two of the UMLEdges linked to the shape have those memberEnds as modelElements."
                 }
               },
@@ -251,10 +296,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-edge_instancespec-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "(kind=UMLAssociationOrConnectorOrLinkShapeKind::diamond and modelElement->forAll(oclIsKindOf(InstanceSpecification))) implies\r\nlet instanceSpecification : InstanceSpecification = modelElement->any(true).oclAsType(InstanceSpecification) in\r\n  (instanceSpecification.classifier->select(a | a.oclIsKindOf(Association) and \r\n                                                            (a.oclAsType(Association).memberEnd->size() = 2) and\r\n                                                             (sourceEdge.modelElement->union(targetEdge.modelElement)\r\n                                                              ->select(e |  a.oclAsType(Association).memberEnd->includes(e.modelElement))\r\n                                                                ->size()=2))\r\n                                                      ->size()=1)\r\n\r\n"
                 }
               }
@@ -266,13 +314,16 @@
                 "name": "edge_connector",
                 "constrainedElement": "UMLAssociationOrConnectorOrLinkShape"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-edge_connector-_ownedComment.0",
                   "annotatedElement": "UMLAssociationOrConnectorOrLinkShape-edge_connector"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "For diamond kind and a Connector modelElement, the Connector has exactly two ends, and exactly two of the UMLEdges linked to the shape have definingEnds of those ends as modelElements."
                 }
               },
@@ -281,10 +332,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLAssociationOrConnectorOrLinkShape-edge_connector-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "(kind=UMLAssociationOrConnectorOrLinkShapeKind::diamond and modelElement->forAll(oclIsKindOf(Connector))) implies\r\nlet connector : Connector = modelElement->any(true).oclAsType(Connector) in\r\n   ((connector.end->size() = 2) and\r\n      (sourceEdge.modelElement->union(targetEdge.modelElement)->select(em |  connector.end.definingEnd->includes(em))->size()=2))\r\n"
                 }
               }
@@ -295,7 +349,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLAssociationOrConnectorOrLinkShape-_generalization.0",
               "general": "UMLShape"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -304,7 +359,8 @@
               "name": "kind",
               "visibility": "private",
               "type": "UMLAssociationOrConnectorOrLinkShapeKind"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -313,13 +369,16 @@
             "xmi:id": "UMLClassDiagram",
             "name": "UMLClassDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLClassDiagram-_ownedComment.0",
               "annotatedElement": "UMLClassDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "See Annex A."
             }
           },
@@ -330,13 +389,16 @@
               "name": "no_modelElement",
               "constrainedElement": "UMLClassDiagram"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLClassDiagram-no_modelElement-_ownedComment.0",
                 "annotatedElement": "UMLClassDiagram-no_modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLClassDiagrams must have no modelElements."
               }
             },
@@ -345,10 +407,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLClassDiagram-no_modelElement-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->isEmpty()"
               }
             }
@@ -358,7 +423,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLClassDiagram-_generalization.0",
               "general": "UMLStructureDiagram"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -367,13 +433,16 @@
             "xmi:id": "UMLClassifierShape",
             "name": "UMLClassifierShape"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLClassifierShape-_ownedComment.0",
               "annotatedElement": "UMLClassifierShape"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Shows Classifiers with shapes that may have compartments."
             }
           },
@@ -384,13 +453,16 @@
               "name": "doubleSided_isActive",
               "constrainedElement": "UMLClassifierShape"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLClassifierShape-doubleSided_isActive-_ownedComment.0",
                 "annotatedElement": "UMLClassifierShape-doubleSided_isActive"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "isDoubleSided may be true only when modelElement is an active Class."
               }
             },
@@ -399,10 +471,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLClassifierShape-doubleSided_isActive-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "isDoubleSided implies (modelElement->forAll(oclIsKindOf(Class)) and modelElement.oclAsType(Class)->forAll(isActive))"
               }
             }
@@ -412,7 +487,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLClassifierShape-_generalization.0",
               "general": "UMLCompartmentableShape"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": [
             {
@@ -423,13 +499,16 @@
                 "redefinedProperty": "UMLDiagramElement-modelElement",
                 "association": "A_UMLClassifierShape_modelElement_umlDiagramElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLClassifierShape-modelElement-_ownedComment.0",
                   "annotatedElement": "UMLClassifierShape-modelElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts UMLClassifierShapes to showing exactly one Classifier."
                 }
               },
@@ -437,7 +516,8 @@
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Classifier"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -446,13 +526,16 @@
                 "xmi:id": "UMLClassifierShape-isIndentForVisibility",
                 "name": "isIndentForVisibility"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLClassifierShape-isIndentForVisibility-_ownedComment.0",
                   "annotatedElement": "UMLClassifierShape-isIndentForVisibility"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "For modelElements that are shown with feature compartments, indicates whether features are shown indented under visibility headings."
                 }
               },
@@ -460,18 +543,21 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLClassifierShape-isIndentForVisibility-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             },
@@ -481,13 +567,16 @@
                 "xmi:id": "UMLClassifierShape-isDoubleSided",
                 "name": "isDoubleSided"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLClassifierShape-isDoubleSided-_ownedComment.0",
                   "annotatedElement": "UMLClassifierShape-isDoubleSided"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "For modelElements that are Classes with true as a value for isActive that are shown as rectangles, indicates whether the vertical sides shall be rendered as double lines."
                 }
               },
@@ -495,18 +584,21 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLClassifierShape-isDoubleSided-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             }
@@ -517,15 +609,18 @@
             "xmi:type": "uml:Class",
             "xmi:id": "UMLDiagramWithAssociations",
             "name": "UMLDiagramWithAssociations",
-            "isAbstract": "true"
+            "isAbstract": true
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLDiagramWithAssociations-_ownedComment.0",
               "annotatedElement": "UMLDiagramWithAssociations"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Specifies the common aspects of diagrams that show associations."
             }
           },
@@ -534,7 +629,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLDiagramWithAssociations-_generalization.0",
               "general": "UMLDiagram"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": [
             {
@@ -543,13 +639,16 @@
                 "xmi:id": "UMLDiagramWithAssociations-isAssociationDotShown",
                 "name": "isAssociationDotShown"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramWithAssociations-isAssociationDotShown-_ownedComment.0",
                   "annotatedElement": "UMLDiagramWithAssociations-isAssociationDotShown"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates whether dot notation for associations shall be used."
                 }
               },
@@ -557,18 +656,21 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLDiagramWithAssociations-isAssociationDotShown-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             },
@@ -579,13 +681,16 @@
                 "name": "navigabilityNotation",
                 "type": "UMLNavigabilityNotationKind"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramWithAssociations-navigabilityNotation-_ownedComment.0",
                   "annotatedElement": "UMLDiagramWithAssociations-navigabilityNotation"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates when to show navigability of associations or connectors typed by associations."
                 }
               },
@@ -596,7 +701,8 @@
                   "name": "oneWay",
                   "type": "UMLNavigabilityNotationKind",
                   "instance": "UMLNavigabilityNotationKind-oneWay"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -606,13 +712,16 @@
                 "name": "nonNavigabilityNotation",
                 "type": "UMLNavigabilityNotationKind"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramWithAssociations-nonNavigabilityNotation-_ownedComment.0",
                   "annotatedElement": "UMLDiagramWithAssociations-nonNavigabilityNotation"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates when to show non-navigability of associations or connectors typed by associations."
                 }
               },
@@ -623,7 +732,8 @@
                   "name": "never",
                   "type": "UMLNavigabilityNotationKind",
                   "instance": "UMLNavigabilityNotationKind-never"
-                }
+                },
+                "_parent": "_"
               }
             }
           ]
@@ -634,13 +744,16 @@
             "xmi:id": "UMLComponentDiagram",
             "name": "UMLComponentDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLComponentDiagram-_ownedComment.0",
               "annotatedElement": "UMLComponentDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "See Annex A."
             }
           },
@@ -651,15 +764,19 @@
               "name": "no_modelElement",
               "constrainedElement": "UMLComponentDiagram"
             },
+            "_parent": "_",
             "specification": {
               "_attributes": {
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLComponentDiagram-no_modelElement-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->isEmpty()"
               }
             }
@@ -669,7 +786,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLComponentDiagram-_generalization.0",
               "general": "UMLStructureDiagram"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -678,13 +796,16 @@
             "xmi:id": "UMLCompositeStructureDiagram",
             "name": "UMLCompositeStructureDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLCompositeStructureDiagram-_ownedComment.0",
               "annotatedElement": "UMLCompositeStructureDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Shows the internal structure of a StructuredClassifier.  Also see Annex A."
             }
           },
@@ -696,13 +817,16 @@
                 "name": "modelElement_mult",
                 "constrainedElement": "UMLCompositeStructureDiagram"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLCompositeStructureDiagram-modelElement_mult-_ownedComment.0",
                   "annotatedElement": "UMLCompositeStructureDiagram-modelElement_mult"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "UMLCompositeStructureDiagrams must have exactly one modelElement."
                 }
               },
@@ -711,10 +835,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLCompositeStructureDiagram-modelElement_mult-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement->size() = 1"
                 }
               }
@@ -726,13 +853,16 @@
                 "name": "modelElement_type",
                 "constrainedElement": "UMLCompositeStructureDiagram"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLCompositeStructureDiagram-modelElement_type-_ownedComment.0",
                   "annotatedElement": "UMLCompositeStructureDiagram-modelElement_type"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement must be a StructuredClassifier or an InstanceSpecification with a classifier that is a StructuredClassifier."
                 }
               },
@@ -741,10 +871,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLCompositeStructureDiagram-modelElement_type-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement->asSequence()->first().oclIsKindOf(StructuredClassifier)\r\nor (       modelElement->asSequence()->first().oclIsKindOf(InstanceSpecification)\r\n      and (modelElement->asSequence()->first().oclAsType(InstanceSpecification).classifier->select(c | c.oclIsKindOf(StructuredClassifier))->size() > 0))"
                 }
               }
@@ -755,7 +888,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLCompositeStructureDiagram-_generalization.0",
               "general": "UMLStructureDiagram"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -764,13 +898,16 @@
             "xmi:id": "UMLDeploymentDiagram",
             "name": "UMLDeploymentDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLDeploymentDiagram-_ownedComment.0",
               "annotatedElement": "UMLDeploymentDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "See Annex A."
             }
           },
@@ -781,13 +918,16 @@
               "name": "no_modelElement",
               "constrainedElement": "UMLDeploymentDiagram"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLDeploymentDiagram-no_modelElement-_ownedComment.0",
                 "annotatedElement": "UMLDeploymentDiagram-no_modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLDeploymentDiagrams must have no modelElement."
               }
             },
@@ -796,8 +936,12 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLDeploymentDiagram-no_modelElement-_specification"
               },
-              "language": {},
+              "_parent": "_",
+              "language": {
+                "_parent": "_"
+              },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->isEmpty()"
               }
             }
@@ -807,7 +951,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLDeploymentDiagram-_generalization.0",
               "general": "UMLStructureDiagram"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -816,13 +961,16 @@
             "xmi:id": "UMLMultiplicityLabel",
             "name": "UMLMultiplicityLabel"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLMultiplicityLabel-_ownedComment.0",
               "annotatedElement": "UMLMultiplicityLabel"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Shows text about MultiplicityElements."
             }
           },
@@ -831,7 +979,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLMultiplicityLabel-_generalization.0",
               "general": "UMLLabel"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -841,13 +990,16 @@
               "redefinedProperty": "UMLDiagramElement-modelElement",
               "association": "A_UMLMultiplicityElement_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLMultiplicityLabel-modelElement-_ownedComment.0",
                 "annotatedElement": "UMLMultiplicityLabel-modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "Restricts UMLMultiplicityLabels to show only MultiplicityElements."
               }
             },
@@ -855,7 +1007,8 @@
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#MultiplicityElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -865,13 +1018,16 @@
             "xmi:id": "UMLObjectDiagram",
             "name": "UMLObjectDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLObjectDiagram-_ownedComment.0",
               "annotatedElement": "UMLObjectDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "See Annex A."
             }
           },
@@ -882,13 +1038,16 @@
               "name": "no_modelElement",
               "constrainedElement": "UMLObjectDiagram"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLObjectDiagram-no_modelElement-_ownedComment.0",
                 "annotatedElement": "UMLObjectDiagram-no_modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLObjectDiagrams must have no modelElement."
               }
             },
@@ -897,10 +1056,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLObjectDiagram-no_modelElement-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->isEmpty()"
               }
             }
@@ -910,7 +1072,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLObjectDiagram-_generalization.0",
               "general": "UMLStructureDiagram"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -919,13 +1082,16 @@
             "xmi:id": "UMLPackageDiagram",
             "name": "UMLPackageDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLPackageDiagram-_ownedComment.0",
               "annotatedElement": "UMLPackageDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "See Annex A."
             }
           },
@@ -936,13 +1102,16 @@
               "name": "no_modelElement",
               "constrainedElement": "UMLPackageDiagram"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLPackageDiagram-no_modelElement-_ownedComment.0",
                 "annotatedElement": "UMLPackageDiagram-no_modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLPackageDiagrams must have no modelElement."
               }
             },
@@ -951,10 +1120,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLPackageDiagram-no_modelElement-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->isEmpty()"
               }
             }
@@ -964,7 +1136,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLPackageDiagram-_generalization.0",
               "general": "UMLStructureDiagram"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -973,13 +1146,16 @@
             "xmi:id": "UMLProfileDiagram",
             "name": "UMLProfileDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLProfileDiagram-_ownedComment.0",
               "annotatedElement": "UMLProfileDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "See Annex A."
             }
           },
@@ -990,13 +1166,16 @@
               "name": "no_modelElement",
               "constrainedElement": "UMLProfileDiagram"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLProfileDiagram-no_modelElement-_ownedComment.0",
                 "annotatedElement": "UMLProfileDiagram-no_modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLProfileDiagrams must have no modelElement."
               }
             },
@@ -1005,10 +1184,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLProfileDiagram-no_modelElement-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->isEmpty()"
               }
             }
@@ -1018,7 +1200,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLProfileDiagram-_generalization.0",
               "general": "UMLStructureDiagram"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -1026,15 +1209,18 @@
             "xmi:type": "uml:Class",
             "xmi:id": "UMLStructureDiagram",
             "name": "UMLStructureDiagram",
-            "isAbstract": "true"
+            "isAbstract": true
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLStructureDiagram-_ownedComment.0",
               "annotatedElement": "UMLStructureDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for UMLDiagrams depicting structural elements."
             }
           },
@@ -1043,7 +1229,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLStructureDiagram-_generalization.0",
               "general": "UMLDiagramWithAssociations"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -1052,20 +1239,23 @@
             "xmi:id": "UMLAssociationOrConnectorOrLinkShapeKind",
             "name": "UMLAssociationOrConnectorOrLinkShapeKind"
           },
+          "_parent": "_",
           "ownedLiteral": [
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLAssociationOrConnectorOrLinkShapeKind-diamond",
                 "name": "diamond"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLAssociationOrConnectorOrLinkShapeKind-triangle",
                 "name": "triangle"
-              }
+              },
+              "_parent": "_"
             }
           ]
         },
@@ -1075,13 +1265,16 @@
             "xmi:id": "UMLNavigabilityNotationKind",
             "name": "UMLNavigabilityNotationKind"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLNavigabilityNotationKind-_ownedComment.0",
               "annotatedElement": "UMLNavigabilityNotationKind"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Alternatives for showing navigability or non-navigability of associations and connectors typed associations."
             }
           },
@@ -1092,13 +1285,16 @@
                 "xmi:id": "UMLNavigabilityNotationKind-always",
                 "name": "always"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLNavigabilityNotationKind-always-_ownedComment.0",
                   "annotatedElement": "UMLNavigabilityNotationKind-always"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Always show navigability or non-navigability."
                 }
               }
@@ -1109,13 +1305,16 @@
                 "xmi:id": "UMLNavigabilityNotationKind-oneWay",
                 "name": "oneWay"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLNavigabilityNotationKind-oneWay-_ownedComment.0",
                   "annotatedElement": "UMLNavigabilityNotationKind-oneWay"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Show navigability or non-navigability only for unidirectional associations and connectors typed by unidirectional associations."
                 }
               }
@@ -1126,13 +1325,16 @@
                 "xmi:id": "UMLNavigabilityNotationKind-never",
                 "name": "never"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLNavigabilityNotationKind-never-_ownedComment.0",
                   "annotatedElement": "UMLNavigabilityNotationKind-never"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Never show navigability or non-navigability."
                 }
               }
@@ -1145,13 +1347,16 @@
             "xmi:id": "UMLCompartment",
             "name": "UMLCompartment"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLCompartment-_ownedComment.0",
               "annotatedElement": "UMLCompartment"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "A separated portion of a UMLCompartmentableShape."
             }
           },
@@ -1162,13 +1367,16 @@
               "name": "no_modelElement",
               "constrainedElement": "UMLCompartment"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLCompartment-no_modelElement-_ownedComment.0",
                 "annotatedElement": "UMLCompartment-no_modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLCompartments have no modelElements."
               }
             },
@@ -1177,10 +1385,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLCompartment-no_modelElement-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->isEmpty()"
               }
             }
@@ -1190,7 +1401,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLCompartment-_generalization.0",
               "general": "UMLDiagramElement"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -1198,17 +1410,20 @@
               "xmi:id": "UMLCompartment-elementInCompartment",
               "name": "elementInCompartment",
               "type": "UMLDiagramElement",
-              "isOrdered": "true",
+              "isOrdered": true,
               "aggregation": "composite",
               "association": "A_UMLCompartment_elementInCompartment_owningCompartment"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLCompartment-elementInCompartment-_ownedComment.0",
                 "annotatedElement": "UMLCompartment-elementInCompartment"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "Contents of the compartment."
               }
             },
@@ -1217,18 +1432,21 @@
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "UMLCompartment-elementInCompartment-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "UMLCompartment-elementInCompartment-_lowerValue"
-              }
+              },
+              "_parent": "_"
             },
             "subsettedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-ownedElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1238,13 +1456,16 @@
             "xmi:id": "UMLCompartmentableShape",
             "name": "UMLCompartmentableShape"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLCompartmentableShape-_ownedComment.0",
               "annotatedElement": "UMLCompartmentableShape"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for UML elements that may have contents shown in separated portions inside the shape."
             }
           },
@@ -1253,7 +1474,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLCompartmentableShape-_generalization.0",
               "general": "UMLShape"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -1261,17 +1483,20 @@
               "xmi:id": "UMLCompartmentableShape-compartment",
               "name": "compartment",
               "type": "UMLCompartment",
-              "isOrdered": "true",
+              "isOrdered": true,
               "aggregation": "composite",
               "association": "A_UMLCompartmentableShape_compartmentedShape_shape"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLCompartmentableShape-compartment-_ownedComment.0",
                 "annotatedElement": "UMLCompartmentableShape-compartment"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "Separated portions of the shape."
               }
             },
@@ -1280,18 +1505,21 @@
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "UMLCompartmentableShape-compartment-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "UMLCompartmentableShape-compartment-_lowerValue"
-              }
+              },
+              "_parent": "_"
             },
             "subsettedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-ownedElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1300,15 +1528,18 @@
             "xmi:type": "uml:Class",
             "xmi:id": "UMLDiagram",
             "name": "UMLDiagram",
-            "isAbstract": "true"
+            "isAbstract": true
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLDiagram-_ownedComment.0",
               "annotatedElement": "UMLDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for UML diagrams."
             }
           },
@@ -1319,13 +1550,16 @@
                 "xmi:id": "UMLDiagram-no-frame-no-heading",
                 "name": "no-frame-no-heading"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagram-no-frame-no-heading-_ownedComment.0",
                   "annotatedElement": "UMLDiagram-no-frame-no-heading"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "UMLDiagrams cannot have headings without frames, or vice-versa."
                 }
               },
@@ -1334,10 +1568,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLDiagram-no-frame-no-heading-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "(isFrame = false) = (heading->isEmpty())"
                 }
               }
@@ -1349,13 +1586,16 @@
                 "name": "heading_modelElement",
                 "constrainedElement": "UMLDiagram"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagram-heading_modelElement-_ownedComment.0",
                   "annotatedElement": "UMLDiagram-heading_modelElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "The modelElement of the heading is the same as the modelElement of the diagram it heads."
                 }
               },
@@ -1364,10 +1604,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLDiagram-heading_modelElement-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "(heading->isEmpty()) or (heading.modelElement = modelElement)"
                 }
               }
@@ -1379,11 +1622,13 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLDiagram-_generalization.0"
               },
+              "_parent": "_",
               "general": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#Diagram"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1391,11 +1636,13 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLDiagram-_generalization.1"
               },
+              "_parent": "_",
               "general": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#PackageableElement"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1403,7 +1650,8 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLDiagram-_generalization.2",
                 "general": "UMLDiagramElement"
-              }
+              },
+              "_parent": "_"
             }
           ],
           "ownedAttribute": [
@@ -1413,13 +1661,16 @@
                 "xmi:id": "UMLDiagram-isFrame",
                 "name": "isFrame"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagram-isFrame-_ownedComment.0",
                   "annotatedElement": "UMLDiagram-isFrame"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates when diagram frames shall be shown."
                 }
               },
@@ -1427,19 +1678,22 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLDiagram-isFrame-_defaultValue",
-                  "value": "true"
+                  "value": true
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             },
@@ -1449,13 +1703,16 @@
                 "xmi:id": "UMLDiagram-isIso",
                 "name": "isIso"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagram-isIso-_ownedComment.0",
                   "annotatedElement": "UMLDiagram-isIso"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicate when ISO notation rules shall be followed."
                 }
               },
@@ -1463,19 +1720,22 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLDiagram-isIso-_defaultValue",
-                  "value": "true"
+                  "value": true
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             },
@@ -1487,11 +1747,13 @@
                 "type": "UMLLabel",
                 "association": "A_UMLDiagram_heading_headedDiagram"
               },
+              "_parent": "_",
               "lowerValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralInteger",
                   "xmi:id": "UMLDiagram-heading-_lowerValue"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1500,22 +1762,26 @@
                 "xmi:id": "UMLDiagram-isInheritedLighter",
                 "name": "isInheritedLighter"
               },
+              "_parent": "_",
               "type": {
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLDiagram-isInheritedLighter-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             }
@@ -1526,15 +1792,18 @@
             "xmi:type": "uml:Class",
             "xmi:id": "UMLDiagramElement",
             "name": "UMLDiagramElement",
-            "isAbstract": "true"
+            "isAbstract": true
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLDiagramElement-_ownedComment.0",
               "annotatedElement": "UMLDiagramElement"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for UML diagram interchange."
             }
           },
@@ -1543,11 +1812,13 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLDiagramElement-_generalization.0"
             },
+            "_parent": "_",
             "general": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement"
-              }
+              },
+              "_parent": "_"
             }
           },
           "ownedAttribute": [
@@ -1558,13 +1829,16 @@
                 "name": "modelElement",
                 "association": "A_UMLDiagramElement_modelElement_umlDiagramElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramElement-modelElement-_ownedComment.0",
                   "annotatedElement": "UMLDiagramElement-modelElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts UMLDiagramElements to show UML Elements, rather than other language elements. "
                 }
               },
@@ -1572,25 +1846,29 @@
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Element"
-                }
+                },
+                "_parent": "_"
               },
               "upperValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralUnlimitedNatural",
                   "xmi:id": "UMLDiagramElement-modelElement-_upperValue",
                   "value": "*"
-                }
+                },
+                "_parent": "_"
               },
               "lowerValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralInteger",
                   "xmi:id": "UMLDiagramElement-modelElement-_lowerValue"
-                }
+                },
+                "_parent": "_"
               },
               "redefinedProperty": {
                 "_attributes": {
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-modelElement"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1601,13 +1879,16 @@
                 "type": "UMLStyle",
                 "association": "A_UMLDiagramElement_sharedStyle_styledElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramElement-sharedStyle-_ownedComment.0",
                   "annotatedElement": "UMLDiagramElement-sharedStyle"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts shared styles to UMLStyles."
                 }
               },
@@ -1615,12 +1896,14 @@
                 "_attributes": {
                   "xmi:type": "uml:LiteralInteger",
                   "xmi:id": "UMLDiagramElement-sharedStyle-_lowerValue"
-                }
+                },
+                "_parent": "_"
               },
               "redefinedProperty": {
                 "_attributes": {
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-sharedStyle"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1632,13 +1915,16 @@
                 "aggregation": "composite",
                 "association": "A_UMLDiagramElement_localStyle_styledElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramElement-localStyle-_ownedComment.0",
                   "annotatedElement": "UMLDiagramElement-localStyle"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts owned styles to UMLStyles."
                 }
               },
@@ -1646,12 +1932,14 @@
                 "_attributes": {
                   "xmi:type": "uml:LiteralInteger",
                   "xmi:id": "UMLDiagramElement-localStyle-_lowerValue"
-                }
+                },
+                "_parent": "_"
               },
               "redefinedProperty": {
                 "_attributes": {
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-localStyle"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1662,13 +1950,16 @@
                 "type": "UMLDiagramElement",
                 "association": "A_UMLDiagramElement_ownedElement_owningElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramElement-owningElement-_ownedComment.0",
                   "annotatedElement": "UMLDiagramElement-owningElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts UMLDiagramElements to be owned by only UMLDiagramElements."
                 }
               },
@@ -1676,12 +1967,14 @@
                 "_attributes": {
                   "xmi:type": "uml:LiteralInteger",
                   "xmi:id": "UMLDiagramElement-owningElement-_lowerValue"
-                }
+                },
+                "_parent": "_"
               },
               "redefinedProperty": {
                 "_attributes": {
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-owningElement"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1690,13 +1983,16 @@
                 "xmi:id": "UMLDiagramElement-isIcon",
                 "name": "isIcon"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramElement-isIcon-_ownedComment.0",
                   "annotatedElement": "UMLDiagramElement-isIcon"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "For modelElements that have an option to be shown with shapes other than rectangles, such as Actors, or with other identifying shapes inside them, such as arrows distinguishing InputPins and OutputPins, or edges that have an option to be shown with lines other than solid with open arrow heads, such as Realization.  A value of true for isIcon indicates the alternative notation shall be shown."
                 }
               },
@@ -1704,18 +2000,21 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLDiagramElement-isIcon-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             },
@@ -1725,17 +2024,20 @@
                 "xmi:id": "UMLDiagramElement-ownedElement",
                 "name": "ownedElement",
                 "type": "UMLDiagramElement",
-                "isOrdered": "true",
+                "isOrdered": true,
                 "aggregation": "composite",
                 "association": "A_UMLDiagramElement_ownedElement_owningElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLDiagramElement-ownedElement-_ownedComment.0",
                   "annotatedElement": "UMLDiagramElement-ownedElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts UMLDiagramElements to own only UMLDiagramElements."
                 }
               },
@@ -1744,18 +2046,21 @@
                   "xmi:type": "uml:LiteralUnlimitedNatural",
                   "xmi:id": "UMLDiagramElement-ownedElement-_upperValue",
                   "value": "*"
-                }
+                },
+                "_parent": "_"
               },
               "lowerValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralInteger",
                   "xmi:id": "UMLDiagramElement-ownedElement-_lowerValue"
-                }
+                },
+                "_parent": "_"
               },
               "redefinedProperty": {
                 "_attributes": {
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-ownedElement"
-                }
+                },
+                "_parent": "_"
               }
             }
           ]
@@ -1766,13 +2071,16 @@
             "xmi:id": "UMLEdge",
             "name": "UMLEdge"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLEdge-_ownedComment.0",
               "annotatedElement": "UMLEdge"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for UML diagram elements that are rendered as lines."
             }
           },
@@ -1782,11 +2090,13 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLEdge-_generalization.0"
               },
+              "_parent": "_",
               "general": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#Edge"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1794,7 +2104,8 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLEdge-_generalization.1",
                 "general": "UMLDiagramElement"
-              }
+              },
+              "_parent": "_"
             }
           ],
           "ownedAttribute": [
@@ -1806,20 +2117,24 @@
                 "type": "UMLDiagramElement",
                 "association": "A_UMLEdge_source_sourceEdge"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLEdge-source-_ownedComment.0",
                   "annotatedElement": "UMLEdge-source"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts the sources of UMLEdges to UMLDiagramElements."
                 }
               },
               "redefinedProperty": {
                 "_attributes": {
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#Edge-source"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -1830,20 +2145,24 @@
                 "type": "UMLDiagramElement",
                 "association": "A_UMLEdge_target_targetEdge"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLEdge-target-_ownedComment.0",
                   "annotatedElement": "UMLEdge-target"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts the targets of UMLEdges to UMLDiagramElements."
                 }
               },
               "redefinedProperty": {
                 "_attributes": {
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#Edge-target"
-                }
+                },
+                "_parent": "_"
               }
             }
           ]
@@ -1854,13 +2173,16 @@
             "xmi:id": "UMLKeywordLabel",
             "name": "UMLKeywordLabel"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLKeywordLabel-_ownedComment.0",
               "annotatedElement": "UMLKeywordLabel"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "For showing the keywords of the modelElement."
             }
           },
@@ -1871,13 +2193,16 @@
               "name": "modeElement_mult",
               "constrainedElement": "UMLKeywordLabel"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLKeywordLabel-modeElement_mult-_ownedComment.0",
                 "annotatedElement": "UMLKeywordLabel-modeElement_mult"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLKeywords must have exactly one modelElement."
               }
             },
@@ -1886,10 +2211,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLKeywordLabel-modeElement_mult-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->size() = 1"
               }
             }
@@ -1899,7 +2227,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLKeywordLabel-_generalization.0",
               "general": "UMLLabel"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -1908,13 +2237,16 @@
             "xmi:id": "UMLLabel",
             "name": "UMLLabel"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLLabel-_ownedComment.0",
               "annotatedElement": "UMLLabel"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for UML shapes that are rendered only as text."
             }
           },
@@ -1926,13 +2258,16 @@
                 "name": "modelElement_mult",
                 "constrainedElement": "UMLLabel"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLLabel-modelElement_mult-_ownedComment.0",
                   "annotatedElement": "UMLLabel-modelElement_mult"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "UMLLabels must have no more than one modelElement."
                 }
               },
@@ -1941,10 +2276,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLLabel-modelElement_mult-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement->size() <= 1"
                 }
               }
@@ -1956,13 +2294,16 @@
                 "name": "no_icon",
                 "constrainedElement": "UMLLabel"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLLabel-no_icon-_ownedComment.0",
                   "annotatedElement": "UMLLabel-no_icon"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "UMLLabels must have the value of false for isIcon."
                 }
               },
@@ -1971,10 +2312,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLLabel-no_icon-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "isIcon=false"
                 }
               }
@@ -1985,7 +2329,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLLabel-_generalization.0",
               "general": "UMLShape"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -1993,13 +2338,16 @@
               "xmi:id": "UMLLabel-text",
               "name": "text"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLLabel-text-_ownedComment.0",
                 "annotatedElement": "UMLLabel-text"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "String to be rendered."
               }
             },
@@ -2007,7 +2355,8 @@
               "_attributes": {
                 "xmi:type": "uml:PrimitiveType",
                 "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -2017,13 +2366,16 @@
             "xmi:id": "UMLNameLabel",
             "name": "UMLNameLabel"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLNameLabel-_ownedComment.0",
               "annotatedElement": "UMLNameLabel"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "For showing text about NamedElements."
             }
           },
@@ -2032,7 +2384,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLNameLabel-_generalization.0",
               "general": "UMLLabel"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -2042,13 +2395,16 @@
               "redefinedProperty": "UMLDiagramElement-modelElement",
               "association": "A_UMLNameLabel_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLNameLabel-modeElement-_ownedComment.0",
                 "annotatedElement": "UMLNameLabel-modeElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "Restricts UMLNameLabels to be notation for NamedElements."
               }
             },
@@ -2056,7 +2412,8 @@
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#NamedElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -2066,13 +2423,16 @@
             "xmi:id": "UMLRedefinesLabel",
             "name": "UMLRedefinesLabel"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLRedefinesLabel-_ownedComment.0",
               "annotatedElement": "UMLRedefinesLabel"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "For showing redefinition."
             }
           },
@@ -2081,7 +2441,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLRedefinesLabel-_generalization.0",
               "general": "UMLLabel"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -2091,13 +2452,16 @@
               "redefinedProperty": "UMLDiagramElement-modelElement",
               "association": "A_UMLRedefines_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLRedefinesLabel-modelElement-_ownedComment.0",
                 "annotatedElement": "UMLRedefinesLabel-modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "Restricts UMLRedefinesLabels to be notation for RedefinableElements."
               }
             },
@@ -2105,7 +2469,8 @@
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#RedefinableElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -2115,13 +2480,16 @@
             "xmi:id": "UMLShape",
             "name": "UMLShape"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLShape-_ownedComment.0",
               "annotatedElement": "UMLShape"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for UML diagram elements that are not rendered as lines."
             }
           },
@@ -2131,11 +2499,13 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLShape-_generalization.0"
               },
+              "_parent": "_",
               "general": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#Shape"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -2143,7 +2513,8 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLShape-_generalization.1",
                 "general": "UMLDiagramElement"
-              }
+              },
+              "_parent": "_"
             }
           ]
         },
@@ -2153,13 +2524,16 @@
             "xmi:id": "UMLStereotypePropertyValueLabel",
             "name": "UMLStereotypePropertyValueLabel"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLStereotypePropertyValueLabel-_ownedComment.0",
               "annotatedElement": "UMLStereotypePropertyValueLabel"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "For showing Property values of Stereotypes applied to UML abstract syntax elements."
             }
           },
@@ -2171,13 +2545,16 @@
                 "name": "prop_on_stereotype",
                 "constrainedElement": "UMLStereotypePropertyValueLabel"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStereotypePropertyValueLabel-prop_on_stereotype-_ownedComment.0",
                   "annotatedElement": "UMLStereotypePropertyValueLabel-prop_on_stereotype"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement is a Property of a Stereotype."
                 }
               },
@@ -2186,10 +2563,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLStereotypePropertyValueLabel-prop_on_stereotype-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement->forAll(classifier.oclIsKindOf(Stereotype))"
                 }
               }
@@ -2201,13 +2581,16 @@
                 "name": "stereotypedElement",
                 "constrainedElement": "UMLStereotypePropertyValueLabel"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStereotypePropertyValueLabel-stereotypedElement-_ownedComment.0",
                   "annotatedElement": "UMLStereotypePropertyValueLabel-stereotypedElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Property must be on Stereotype applied to stereotypedElement."
                 }
               },
@@ -2215,9 +2598,12 @@
                 "_attributes": {
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLStereotypePropertyValueLabel-stereotypedElement-_specification",
-                  "language": ""
+                  "language": 0
                 },
-                "body": {}
+                "_parent": "_",
+                "body": {
+                  "_parent": "_"
+                }
               }
             }
           ],
@@ -2226,7 +2612,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLStereotypePropertyValueLabel-_generalization.0",
               "general": "UMLLabel"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": [
             {
@@ -2237,13 +2624,16 @@
                 "redefinedProperty": "UMLDiagramElement-modelElement",
                 "association": "A_UMLStereotypePropertyValueLabel_modelElement_umlDiagramElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStereotypePropertyValueLabel-modelElement-_ownedComment.0",
                   "annotatedElement": "UMLStereotypePropertyValueLabel-modelElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "A Property of a Stereotype applied to the stereotypedElement."
                 }
               },
@@ -2251,7 +2641,8 @@
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Property"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -2261,13 +2652,16 @@
                 "name": "stereotypedElement",
                 "association": "A_UMLStereotypePropertyValueLabel_stereotypedElement_labelShowingStereotypeValue"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStereotypePropertyValueLabel-stereotypedElement.1-_ownedComment.0",
                   "annotatedElement": "UMLStereotypePropertyValueLabel-stereotypedElement.1"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Element to which a Stereotype having the modelElement (Property) is applied."
                 }
               },
@@ -2275,7 +2669,8 @@
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Element"
-                }
+                },
+                "_parent": "_"
               }
             }
           ]
@@ -2286,13 +2681,16 @@
             "xmi:id": "UMLStyle",
             "name": "UMLStyle"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLStyle-_ownedComment.0",
               "annotatedElement": "UMLStyle"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for Styles in UML."
             }
           },
@@ -2303,13 +2701,16 @@
               "name": "fontsize_positive",
               "constrainedElement": "UMLStyle"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLStyle-fontsize_positive-_ownedComment.0",
                 "annotatedElement": "UMLStyle-fontsize_positive"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "fontSize must be greater than zero."
               }
             },
@@ -2318,10 +2719,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLStyle-fontsize_positive-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "fontSize > 0"
               }
             }
@@ -2332,11 +2736,13 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLStyle-_generalization.0"
               },
+              "_parent": "_",
               "general": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#Style"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -2344,11 +2750,13 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLStyle-_generalization.1"
               },
+              "_parent": "_",
               "general": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#PackageableElement"
-                }
+                },
+                "_parent": "_"
               }
             }
           ],
@@ -2359,13 +2767,16 @@
                 "xmi:id": "UMLStyle-fontName",
                 "name": "fontName"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStyle-fontName-_ownedComment.0",
                   "annotatedElement": "UMLStyle-fontName"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Name of a font used to render strings."
                 }
               },
@@ -2373,13 +2784,15 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"
-                }
+                },
+                "_parent": "_"
               },
               "lowerValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralInteger",
                   "xmi:id": "UMLStyle-fontName-_lowerValue"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -2388,13 +2801,16 @@
                 "xmi:id": "UMLStyle-fontSize",
                 "name": "fontSize"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStyle-fontSize-_ownedComment.0",
                   "annotatedElement": "UMLStyle-fontSize"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Size of a font for rendering strings, given in typographical points."
                 }
               },
@@ -2402,13 +2818,15 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Real"
-                }
+                },
+                "_parent": "_"
               },
               "lowerValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralInteger",
                   "xmi:id": "UMLStyle-fontSize-_lowerValue"
-                }
+                },
+                "_parent": "_"
               }
             }
           ]
@@ -2419,13 +2837,16 @@
             "xmi:id": "UMLTypedElementLabel",
             "name": "UMLTypedElementLabel"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLTypedElementLabel-_ownedComment.0",
               "annotatedElement": "UMLTypedElementLabel"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "For showing text about Slots, InstanceSpecifications, InstanceValues, or elements with a type, such as TypedElements or Connectors."
             }
           },
@@ -2437,13 +2858,16 @@
                 "name": "modelElement_mult",
                 "constrainedElement": "UMLTypedElementLabel"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLTypedElementLabel-modelElement_mult-_ownedComment.0",
                   "annotatedElement": "UMLTypedElementLabel-modelElement_mult"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "UMLTypedElementLabels must have exactly one modelElement."
                 }
               },
@@ -2452,10 +2876,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLTypedElementLabel-modelElement_mult-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement->size() = 1"
                 }
               }
@@ -2467,13 +2894,16 @@
                 "name": "modelElement_type",
                 "constrainedElement": "UMLTypedElementLabel"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLTypedElementLabel-modelElement_type-_ownedComment.0",
                   "annotatedElement": "UMLTypedElementLabel-modelElement_type"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "modelElement must be a Slot, InstanceSpecification, InstanceValue, or an element with a type, such as a TypedElement or Connector."
                 }
               },
@@ -2481,7 +2911,8 @@
                 "_attributes": {
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLTypedElementLabel-modelElement_type-_specification"
-                }
+                },
+                "_parent": "_"
               }
             }
           ],
@@ -2490,7 +2921,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLTypedElementLabel-_generalization.0",
               "general": "UMLLabel"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -2499,13 +2931,16 @@
             "xmi:id": "UMLActivityDiagram",
             "name": "UMLActivityDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLActivityDiagram-_ownedComment.0",
               "annotatedElement": "UMLActivityDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Shows an Activity and its elements.  Also see Annex A."
             }
           },
@@ -2516,13 +2951,16 @@
               "name": "frame",
               "constrainedElement": "UMLActivityDiagram"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLActivityDiagram-frame-_ownedComment.0",
                 "annotatedElement": "UMLActivityDiagram-frame"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "isFrame and isActivityFrame must not be true at the same time."
               }
             },
@@ -2531,10 +2969,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLActivityDiagram-frame-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "not (isActivityFrame and isFrame)"
               }
             }
@@ -2544,7 +2985,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLActivityDiagram-_generalization.0",
               "general": "UMLBehaviorDiagram"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": [
             {
@@ -2555,13 +2997,16 @@
                 "redefinedProperty": "UMLBehaviorDiagram-modelElement",
                 "association": "A_UMLActivityDiagram_modelElement_umlDiagramElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLActivityDiagram-modelElement-_ownedComment.0",
                   "annotatedElement": "UMLActivityDiagram-modelElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts UMLActivityDiagrams to show Activities."
                 }
               },
@@ -2569,7 +3014,8 @@
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Activity"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -2578,13 +3024,16 @@
                 "xmi:id": "UMLActivityDiagram-isActivityFrame",
                 "name": "isActivityFrame"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLActivityDiagram-isActivityFrame-_ownedComment.0",
                   "annotatedElement": "UMLActivityDiagram-isActivityFrame"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates whether the UMLActivityDiagram shall be shown with a frame that is a round-cornered rectangle without a pentagonal header."
                 }
               },
@@ -2592,18 +3041,21 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLActivityDiagram-isActivityFrame-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             }
@@ -2614,15 +3066,18 @@
             "xmi:type": "uml:Class",
             "xmi:id": "UMLBehaviorDiagram",
             "name": "UMLBehaviorDiagram",
-            "isAbstract": "true"
+            "isAbstract": true
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLBehaviorDiagram-_ownedComment.0",
               "annotatedElement": "UMLBehaviorDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "The most general class for UMLDiagrams depicting behavioral elements."
             }
           },
@@ -2631,7 +3086,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLBehaviorDiagram-_generalization.0",
               "general": "UMLDiagram"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -2641,13 +3097,16 @@
               "redefinedProperty": "UMLDiagramElement-modelElement",
               "association": "A_UMLBehaviorDiagram_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLBehaviorDiagram-modelElement-_ownedComment.0",
                 "annotatedElement": "UMLBehaviorDiagram-modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "Restricts UMLBehaviorDiagrams to showing Behaviors."
               }
             },
@@ -2655,13 +3114,15 @@
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Behavior"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "UMLBehaviorDiagram-modelElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -2671,13 +3132,16 @@
             "xmi:id": "UMLInteractionDiagram",
             "name": "UMLInteractionDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLInteractionDiagram-_ownedComment.0",
               "annotatedElement": "UMLInteractionDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Shows an Interaction and its elements.  Also see Annex A."
             }
           },
@@ -2686,7 +3150,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLInteractionDiagram-_generalization.0",
               "general": "UMLBehaviorDiagram"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": [
             {
@@ -2697,13 +3162,16 @@
                 "redefinedProperty": "UMLBehaviorDiagram-modelElement",
                 "association": "A_UMLInteractionDiagram_modelElement_umlDiagramElement"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLInteractionDiagram-modelElement-_ownedComment.0",
                   "annotatedElement": "UMLInteractionDiagram-modelElement"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Restricts UMLInteractionDiagrams to showing Interactions."
                 }
               },
@@ -2711,7 +3179,8 @@
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Interaction"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -2721,13 +3190,16 @@
                 "name": "kind",
                 "type": "UMLInteractionDiagramKind"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLInteractionDiagram-kind-_ownedComment.0",
                   "annotatedElement": "UMLInteractionDiagram-kind"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates how an Interaction shall be shown."
                 }
               },
@@ -2738,7 +3210,8 @@
                   "name": "sequence",
                   "type": "UMLInteractionDiagramKind",
                   "instance": "UMLInteractionDiagramKind-sequence"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -2747,13 +3220,16 @@
                 "xmi:id": "UMLInteractionDiagram-isLifelineDashed",
                 "name": "isLifelineDashed"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLInteractionDiagram-isLifelineDashed-_ownedComment.0",
                   "annotatedElement": "UMLInteractionDiagram-isLifelineDashed"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates whether lifelines on the diagram shall be rendered as dashed."
                 }
               },
@@ -2761,18 +3237,21 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLInteractionDiagram-isLifelineDashed-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             }
@@ -2784,12 +3263,14 @@
             "xmi:id": "UMLInteractionTableLabel",
             "name": "UMLInteractionTableLabel"
           },
+          "_parent": "_",
           "generalization": {
             "_attributes": {
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLInteractionTableLabel-_generalization.0",
               "general": "UMLLabel"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -2797,7 +3278,8 @@
               "xmi:id": "UMLInteractionTableLabel-kind",
               "name": "kind",
               "type": "UMLInteractionTableLabelKind"
-            }
+            },
+            "_parent": "_"
           }
         },
         {
@@ -2806,13 +3288,16 @@
             "xmi:id": "UMLStateMachineDiagram",
             "name": "UMLStateMachineDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLStateMachineDiagram-_ownedComment.0",
               "annotatedElement": "UMLStateMachineDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Shows a StateMachine and its elements.  Also see Annex A."
             }
           },
@@ -2824,13 +3309,16 @@
                 "name": "isd_isl_xor",
                 "constrainedElement": "UMLStateMachineDiagram"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStateMachineDiagram-isd_isl_xor-_ownedComment.0",
                   "annotatedElement": "UMLStateMachineDiagram-isd_isl_xor"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "isInheritedDashed and isInheritedLighter cannot both have a value of true."
                 }
               },
@@ -2839,10 +3327,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLStateMachineDiagram-isd_isl_xor-_specification"
                 },
+                "_parent": "_",
                 "language": {
+                  "_parent": "_",
                   "_text": "OCL"
                 },
                 "body": {
+                  "_parent": "_",
                   "_text": "not (isInheritedDashed and isInheritedLighter)"
                 }
               }
@@ -2854,13 +3345,16 @@
                 "name": "isd_isl_req",
                 "constrainedElement": "UMLStateMachineDiagram"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStateMachineDiagram-isd_isl_req-_ownedComment.0",
                   "annotatedElement": "UMLStateMachineDiagram-isd_isl_req"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Either isInheritedDashed or isInheritedLighter must have a value of true if the diagram shows any inherited states."
                 }
               },
@@ -2869,8 +3363,13 @@
                   "xmi:type": "uml:OpaqueExpression",
                   "xmi:id": "UMLStateMachineDiagram-isd_isl_req-_specification"
                 },
-                "language": {},
-                "body": {}
+                "_parent": "_",
+                "language": {
+                  "_parent": "_"
+                },
+                "body": {
+                  "_parent": "_"
+                }
               }
             }
           ],
@@ -2879,7 +3378,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLStateMachineDiagram-_generalization.0",
               "general": "UMLBehaviorDiagram"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": [
             {
@@ -2890,11 +3390,13 @@
                 "redefinedProperty": "UMLBehaviorDiagram-modelElement",
                 "association": "A_UMLStateMachine_modelElement_umlDiagramElement"
               },
+              "_parent": "_",
               "type": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#StateMachine"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -2903,13 +3405,16 @@
                 "xmi:id": "UMLStateMachineDiagram-isCollapseStateIcon",
                 "name": "isCollapseStateIcon"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStateMachineDiagram-isCollapseStateIcon-_ownedComment.0",
                   "annotatedElement": "UMLStateMachineDiagram-isCollapseStateIcon"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates whether UMLShapes for composite States shall contain a small icon distinguishing them from non-composite States."
                 }
               },
@@ -2917,19 +3422,22 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLStateMachineDiagram-isCollapseStateIcon-_defaultValue",
-                  "value": "true"
+                  "value": true
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             },
@@ -2939,13 +3447,16 @@
                 "xmi:id": "UMLStateMachineDiagram-isInheritedDashed",
                 "name": "isInheritedDashed"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStateMachineDiagram-isInheritedDashed-_ownedComment.0",
                   "annotatedElement": "UMLStateMachineDiagram-isInheritedDashed"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates how borders shall be rendered on UMLShapes that have an inherited State as modelElement."
                 }
               },
@@ -2953,18 +3464,21 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLStateMachineDiagram-isInheritedDashed-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             },
@@ -2974,13 +3488,16 @@
                 "xmi:id": "UMLStateMachineDiagram-isTransitionOriented",
                 "name": "isTransitionOriented"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLStateMachineDiagram-isTransitionOriented-_ownedComment.0",
                   "annotatedElement": "UMLStateMachineDiagram-isTransitionOriented"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "Indicates whether properties of Transitions shall be shown graphically."
                 }
               },
@@ -2988,18 +3505,21 @@
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLStateMachineDiagram-isTransitionOriented-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             }
@@ -3011,19 +3531,23 @@
             "xmi:id": "UMLStateShape",
             "name": "UMLStateShape"
           },
+          "_parent": "_",
           "ownedRule": {
             "_attributes": {
               "xmi:type": "uml:Constraint",
               "xmi:id": "UMLStateShape-state_list",
               "name": "state_list"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLStateShape-state_list-_ownedComment.0",
                 "annotatedElement": "UMLStateShape-state_list"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLStateShapes may have multiple modelElements only when their outgoing Transitions have no triggers or effects, and target the same junction State that has one outgoing Transition."
               }
             },
@@ -3032,10 +3556,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLStateShape-state_list-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "(modelElement->size() > 1) implies\r\n(         modelElement->forAll(outgoing->forAll(trigger->isEmpty() and\r\n                                                                         effect->isEmpty() and\r\n                                                                         target.oclIsKindOf(Pseudostate) and\r\n                                                                         target.oclAsType(Pseudostate).kind = PseudostateKind::junction and\r\n                                                                         target.outgoing->size() = 1))\r\n  and  modelElement.outgoing.target->asSet()->size()=1)"
               }
             }
@@ -3045,7 +3572,8 @@
               "xmi:type": "uml:Generalization",
               "xmi:id": "UMLStateShape-_generalization.0",
               "general": "UMLCompartmentableShape"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": [
             {
@@ -3054,22 +3582,26 @@
                 "xmi:id": "UMLStateShape-isTabbed",
                 "name": "isTabbed"
               },
+              "_parent": "_",
               "type": {
                 "_attributes": {
                   "xmi:type": "uml:PrimitiveType",
                   "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                }
+                },
+                "_parent": "_"
               },
               "defaultValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralBoolean",
                   "xmi:id": "UMLStateShape-isTabbed-_defaultValue"
                 },
+                "_parent": "_",
                 "type": {
                   "_attributes": {
                     "xmi:type": "uml:PrimitiveType",
                     "href": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean"
-                  }
+                  },
+                  "_parent": "_"
                 }
               }
             },
@@ -3081,18 +3613,21 @@
                 "redefinedProperty": "UMLDiagramElement-modelElement",
                 "association": "A_UMLStateShape_modelElement_umlDiagramElement"
               },
+              "_parent": "_",
               "type": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#State"
-                }
+                },
+                "_parent": "_"
               },
               "upperValue": {
                 "_attributes": {
                   "xmi:type": "uml:LiteralUnlimitedNatural",
                   "xmi:id": "UMLStateShape-modelElement-_upperValue",
                   "value": "*"
-                }
+                },
+                "_parent": "_"
               }
             }
           ]
@@ -3103,13 +3638,16 @@
             "xmi:id": "UMLUseCaseDiagram",
             "name": "UMLUseCaseDiagram"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLUseCaseDiagram-_ownedComment.0",
               "annotatedElement": "UMLUseCaseDiagram"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "See Annex A."
             }
           },
@@ -3120,13 +3658,16 @@
               "name": "no_modelElement",
               "constrainedElement": "UMLUseCaseDiagram"
             },
+            "_parent": "_",
             "ownedComment": {
               "_attributes": {
                 "xmi:type": "uml:Comment",
                 "xmi:id": "UMLUseCaseDiagram-no_modelElement-_ownedComment.0",
                 "annotatedElement": "UMLUseCaseDiagram-no_modelElement"
               },
+              "_parent": "_",
               "body": {
+                "_parent": "_",
                 "_text": "UMLUseCaseDiagrams must have no modelElements."
               }
             },
@@ -3135,10 +3676,13 @@
                 "xmi:type": "uml:OpaqueExpression",
                 "xmi:id": "UMLUseCaseDiagram-no_modelElement-_specification"
               },
+              "_parent": "_",
               "language": {
+                "_parent": "_",
                 "_text": "OCL"
               },
               "body": {
+                "_parent": "_",
                 "_text": "modelElement->isEmpty()"
               }
             }
@@ -3149,14 +3693,16 @@
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLUseCaseDiagram-_generalization.0",
                 "general": "UMLBehaviorDiagram"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:Generalization",
                 "xmi:id": "UMLUseCaseDiagram-_generalization.1",
                 "general": "UMLDiagramWithAssociations"
-              }
+              },
+              "_parent": "_"
             }
           ]
         },
@@ -3166,13 +3712,16 @@
             "xmi:id": "UMLInteractionDiagramKind",
             "name": "UMLInteractionDiagramKind"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UMLInteractionDiagramKind-_ownedComment.0",
               "annotatedElement": "UMLInteractionDiagramKind"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Alternatives for diagramming Interactions."
             }
           },
@@ -3183,13 +3732,16 @@
                 "xmi:id": "UMLInteractionDiagramKind-sequence",
                 "name": "sequence"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLInteractionDiagramKind-sequence-_ownedComment.0",
                   "annotatedElement": "UMLInteractionDiagramKind-sequence"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "See Subclause 17.8."
                 }
               }
@@ -3200,13 +3752,16 @@
                 "xmi:id": "UMLInteractionDiagramKind-communication",
                 "name": "communication"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLInteractionDiagramKind-communication-_ownedComment.0",
                   "annotatedElement": "UMLInteractionDiagramKind-communication"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "See Subclause 17.9."
                 }
               }
@@ -3217,13 +3772,16 @@
                 "xmi:id": "UMLInteractionDiagramKind-overview",
                 "name": "overview"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLInteractionDiagramKind-overview-_ownedComment.0",
                   "annotatedElement": "UMLInteractionDiagramKind-overview"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "See Subclause 17.10."
                 }
               }
@@ -3234,13 +3792,16 @@
                 "xmi:id": "UMLInteractionDiagramKind-timing",
                 "name": "timing"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLInteractionDiagramKind-timing-_ownedComment.0",
                   "annotatedElement": "UMLInteractionDiagramKind-timing"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "See Subclause 17.11."
                 }
               }
@@ -3251,13 +3812,16 @@
                 "xmi:id": "UMLInteractionDiagramKind-table",
                 "name": "table"
               },
+              "_parent": "_",
               "ownedComment": {
                 "_attributes": {
                   "xmi:type": "uml:Comment",
                   "xmi:id": "UMLInteractionDiagramKind-table-_ownedComment.0",
                   "annotatedElement": "UMLInteractionDiagramKind-table"
                 },
+                "_parent": "_",
                 "body": {
+                  "_parent": "_",
                   "_text": "See Annex D."
                 }
               }
@@ -3270,111 +3834,127 @@
             "xmi:id": "UMLInteractionTableLabelKind",
             "name": "UMLInteractionTableLabelKind"
           },
+          "_parent": "_",
           "ownedLiteral": [
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-lifelineClass",
                 "name": "lifelineClass"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-lifelineInstance",
                 "name": "lifelineInstance"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-constraint",
                 "name": "constraint"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-messageSendingClass",
                 "name": "messageSendingClass"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-messageSendingInstance",
                 "name": "messageSendingInstance"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-diagramIdentifier",
                 "name": "diagramIdentifier"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-generatedInstanceName",
                 "name": "generatedInstanceName"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-sequenceNumber",
                 "name": "sequenceNumber"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-weakOrder",
                 "name": "weakOrder"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-messageName",
                 "name": "messageName"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-parameter",
                 "name": "parameter"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-returnValue",
                 "name": "returnValue"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-messageReceivingClass",
                 "name": "messageReceivingClass"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-messageReceivingInstance",
                 "name": "messageReceivingInstance"
-              }
+              },
+              "_parent": "_"
             },
             {
               "_attributes": {
                 "xmi:type": "uml:EnumerationLiteral",
                 "xmi:id": "UMLInteractionTableLabelKind-otherEnd",
                 "name": "otherEnd"
-              }
+              },
+              "_parent": "_"
             }
           ]
         },
@@ -3385,6 +3965,7 @@
             "name": "A_UMLStateShape_modelElement_umlDiagramElement",
             "memberEnd": "UMLStateShape-modelElement A_UMLStateShape_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3394,18 +3975,21 @@
               "redefinedProperty": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLStateShape_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLStateShape_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLStateShape_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3416,6 +4000,7 @@
             "name": "A_UMLStateMachine_modelElement_umlDiagramElement",
             "memberEnd": "UMLStateMachineDiagram-modelElement A_UMLStateMachine_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3425,18 +4010,21 @@
               "redefinedProperty": "A_UMLBehaviorDiagram_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLStateMachine_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLStateMachine_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLStateMachine_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3447,6 +4035,7 @@
             "name": "A_UMLInteractionDiagram_modelElement_umlDiagramElement",
             "memberEnd": "UMLInteractionDiagram-modelElement A_UMLInteractionDiagram_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3456,18 +4045,21 @@
               "redefinedProperty": "A_UMLBehaviorDiagram_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLInteractionDiagram_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLInteractionDiagram_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLInteractionDiagram_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3478,6 +4070,7 @@
             "name": "A_UMLBehaviorDiagram_modelElement_umlDiagramElement",
             "memberEnd": "UMLBehaviorDiagram-modelElement A_UMLBehaviorDiagram_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3487,18 +4080,21 @@
               "redefinedProperty": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLBehaviorDiagram_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLBehaviorDiagram_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLBehaviorDiagram_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3509,6 +4105,7 @@
             "name": "A_UMLActivityDiagram_modelElement_umlDiagramElement",
             "memberEnd": "UMLActivityDiagram-modelElement A_UMLActivityDiagram_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3518,18 +4115,21 @@
               "redefinedProperty": "A_UMLBehaviorDiagram_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLActivityDiagram_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLActivityDiagram_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLActivityDiagram_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3540,6 +4140,7 @@
             "name": "A_UMLStereotypePropertyValueLabel_stereotypedElement_labelShowingStereotypeValue",
             "memberEnd": "UMLStereotypePropertyValueLabel-stereotypedElement.1 A_UMLStereotypePropertyValueLabel_stereotypedElement_labelShowingStereotypeValue-labelShowingStereotypeValue"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3548,18 +4149,21 @@
               "type": "UMLStereotypePropertyValueLabel",
               "association": "A_UMLStereotypePropertyValueLabel_stereotypedElement_labelShowingStereotypeValue"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLStereotypePropertyValueLabel_stereotypedElement_labelShowingStereotypeValue-labelShowingStereotypeValue-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLStereotypePropertyValueLabel_stereotypedElement_labelShowingStereotypeValue-labelShowingStereotypeValue-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3570,6 +4174,7 @@
             "name": "A_UMLStereotypePropertyValueLabel_modelElement_umlDiagramElement",
             "memberEnd": "UMLStereotypePropertyValueLabel-modelElement A_UMLStereotypePropertyValueLabel_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3579,18 +4184,21 @@
               "redefinedProperty": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLStereotypePropertyValueLabel_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLStereotypePropertyValueLabel_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLStereotypePropertyValueLabel_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3601,6 +4209,7 @@
             "name": "A_UMLRedefines_modelElement_umlDiagramElement",
             "memberEnd": "UMLRedefinesLabel-modelElement A_UMLRedefines_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3610,18 +4219,21 @@
               "redefinedProperty": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLRedefines_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLRedefines_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLRedefines_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3632,6 +4244,7 @@
             "name": "A_UMLNameLabel_modelElement_umlDiagramElement",
             "memberEnd": "UMLNameLabel-modeElement A_UMLNameLabel_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3641,18 +4254,21 @@
               "redefinedProperty": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLNameLabel_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLNameLabel_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLNameLabel_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3663,6 +4279,7 @@
             "name": "A_UMLEdge_source_sourceEdge",
             "memberEnd": "UMLEdge-source A_UMLEdge_source_sourceEdge-sourceEdge"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3671,23 +4288,27 @@
               "type": "UMLEdge",
               "association": "A_UMLEdge_source_sourceEdge"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLEdge_source_sourceEdge-sourceEdge-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLEdge_source_sourceEdge-sourceEdge-_lowerValue"
-              }
+              },
+              "_parent": "_"
             },
             "redefinedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#A_source_sourceEdge-sourceEdge"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3698,6 +4319,7 @@
             "name": "A_UMLEdge_target_targetEdge",
             "memberEnd": "UMLEdge-target A_UMLEdge_target_targetEdge-targetEdge"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3706,23 +4328,27 @@
               "type": "UMLEdge",
               "association": "A_UMLEdge_target_targetEdge"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLEdge_target_targetEdge-targetEdge-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLEdge_target_targetEdge-targetEdge-_lowerValue"
-              }
+              },
+              "_parent": "_"
             },
             "redefinedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#A_target_targetEdge-targetEdge"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3733,6 +4359,7 @@
             "name": "A_UMLDiagramElement_modelElement_umlDiagramElement",
             "memberEnd": "UMLDiagramElement-modelElement A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3741,23 +4368,27 @@
               "type": "UMLDiagramElement",
               "association": "A_UMLDiagramElement_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             },
             "subsettedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#A_modelElement_diagramElement-diagramElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3768,6 +4399,7 @@
             "name": "A_UMLDiagramElement_localStyle_styledElement",
             "memberEnd": "UMLDiagramElement-localStyle A_UMLDiagramElement_localStyle_styledElement-styledElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3776,16 +4408,19 @@
               "type": "UMLDiagramElement",
               "association": "A_UMLDiagramElement_localStyle_styledElement"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLDiagramElement_localStyle_styledElement-styledElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             },
             "redefinedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#A_sharedStyle_styledElement-styledElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3796,6 +4431,7 @@
             "name": "A_UMLDiagramElement_sharedStyle_styledElement",
             "memberEnd": "UMLDiagramElement-sharedStyle A_UMLDiagramElement_sharedStyle_styledElement-styledElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3804,23 +4440,27 @@
               "type": "UMLDiagramElement",
               "association": "A_UMLDiagramElement_sharedStyle_styledElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLDiagramElement_sharedStyle_styledElement-styledElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLDiagramElement_sharedStyle_styledElement-styledElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             },
             "redefinedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#A_sharedStyle_styledElement-styledElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3830,7 +4470,8 @@
             "xmi:id": "A_UMLDiagramElement_ownedElement_owningElement",
             "name": "A_UMLDiagramElement_ownedElement_owningElement",
             "memberEnd": "UMLDiagramElement-ownedElement UMLDiagramElement-owningElement"
-          }
+          },
+          "_parent": "_"
         },
         {
           "_attributes": {
@@ -3839,13 +4480,16 @@
             "name": "A_UMLCompartmentableShape_compartmentedShape_shape",
             "memberEnd": "UMLCompartmentableShape-compartment A_UMLCompartmentableShape_compartmentedShape_shape-compartmentedShape"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "A_UMLCompartmentableShape_compartmentedShape_shape-_ownedComment.0",
               "annotatedElement": "A_UMLCompartmentableShape_compartmentedShape_shape"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Contents of compartments in the same shape are of different types.&nbsp; See constraint on compartment contents."
             }
           },
@@ -3857,10 +4501,12 @@
               "type": "UMLCompartmentableShape",
               "association": "A_UMLCompartmentableShape_compartmentedShape_shape"
             },
+            "_parent": "_",
             "subsettedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-owningElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3871,6 +4517,7 @@
             "name": "A_UMLCompartment_elementInCompartment_owningCompartment",
             "memberEnd": "UMLCompartment-elementInCompartment A_UMLCompartment_elementInCompartment_owningCompartment-owningCompartment"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3879,16 +4526,19 @@
               "type": "UMLCompartment",
               "association": "A_UMLCompartment_elementInCompartment_owningCompartment"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLCompartment_elementInCompartment_owningCompartment-owningCompartment-_lowerValue"
-              }
+              },
+              "_parent": "_"
             },
             "subsettedProperty": {
               "_attributes": {
                 "href": "http://www.omg.org/spec/DD/20131001/DI.xmi#DiagramElement-owningElement"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3899,6 +4549,7 @@
             "name": "A_UMLMultiplicityElement_modelElement_umlDiagramElement",
             "memberEnd": "UMLMultiplicityLabel-modelElement A_UMLMultiplicityElement_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3908,18 +4559,21 @@
               "redefinedProperty": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLMultiplicityElement_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLMultiplicityElement_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLMultiplicityElement_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3930,6 +4584,7 @@
             "name": "A_UMLClassifierShape_modelElement_umlDiagramElement",
             "memberEnd": "UMLClassifierShape-modelElement A_UMLClassifierShape_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3939,18 +4594,21 @@
               "redefinedProperty": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLClassifierShape_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLClassifierShape_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLClassifierShape_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3961,6 +4619,7 @@
             "name": "A_UMLAssociationEndLabel_modelElement_umlDiagramElement",
             "memberEnd": "UMLAssociationEndLabel-modelElement A_UMLAssociationEndLabel_modelElement_umlDiagramElement-umlDiagramElement"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -3970,18 +4629,21 @@
               "redefinedProperty": "A_UMLDiagramElement_modelElement_umlDiagramElement-umlDiagramElement",
               "association": "A_UMLAssociationEndLabel_modelElement_umlDiagramElement"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLAssociationEndLabel_modelElement_umlDiagramElement-umlDiagramElement-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLAssociationEndLabel_modelElement_umlDiagramElement-umlDiagramElement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -3992,6 +4654,7 @@
             "name": "A_UMLDiagram_heading_headedDiagram",
             "memberEnd": "UMLDiagram-heading A_UMLDiagram_heading_headedDiagram-headedDiagram"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -4000,18 +4663,21 @@
               "type": "UMLDiagram",
               "association": "A_UMLDiagram_heading_headedDiagram"
             },
+            "_parent": "_",
             "upperValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralUnlimitedNatural",
                 "xmi:id": "A_UMLDiagram_heading_headedDiagram-headedDiagram-_upperValue",
                 "value": "*"
-              }
+              },
+              "_parent": "_"
             },
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "A_UMLDiagram_heading_headedDiagram-headedDiagram-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         }
@@ -4024,7 +4690,8 @@
         "name": "org.omg.xmi.nsPrefix",
         "value": "umldi",
         "element": "_0"
-      }
+      },
+      "_parent": "_"
     }
   }
 }

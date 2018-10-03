@@ -1,9 +1,10 @@
 {
   "_declaration": {
     "_attributes": {
-      "version": "1.0",
+      "version": 1,
       "encoding": "UTF-8"
-    }
+    },
+    "_parent": "_"
   },
   "xmi:XMI": {
     "_attributes": {
@@ -11,6 +12,7 @@
       "xmlns:uml": "http://www.omg.org/spec/UML/20161101",
       "xmlns:mofext": "http://www.omg.org/spec/MOF/20131001"
     },
+    "_parent": "_",
     "uml:Profile": {
       "_attributes": {
         "xmi:type": "uml:Profile",
@@ -19,15 +21,18 @@
         "metamodelReference": "_packageImport.0",
         "URI": "http://www.omg.org/spec/UML/20161101/StandardProfile"
       },
+      "_parent": "_",
       "packageImport": {
         "_attributes": {
           "xmi:type": "uml:PackageImport",
           "xmi:id": "_packageImport.0"
         },
+        "_parent": "_",
         "importedPackage": {
           "_attributes": {
             "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#_0"
-          }
+          },
+          "_parent": "_"
         }
       },
       "packagedElement": [
@@ -38,6 +43,7 @@
             "name": "Abstraction_Derive",
             "memberEnd": "Abstraction_Derive-extension_Derive Derive-base_Abstraction"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -47,11 +53,13 @@
               "aggregation": "composite",
               "association": "Abstraction_Derive"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Abstraction_Derive-extension_Derive-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -62,6 +70,7 @@
             "name": "Abstraction_Refine",
             "memberEnd": "Abstraction_Refine-extension_Refine Refine-base_Abstraction"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -71,11 +80,13 @@
               "aggregation": "composite",
               "association": "Abstraction_Refine"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Abstraction_Refine-extension_Refine-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -86,6 +97,7 @@
             "name": "Abstraction_Trace",
             "memberEnd": "Abstraction_Trace-extension_Trace Trace-base_Abstraction"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -95,11 +107,13 @@
               "aggregation": "composite",
               "association": "Abstraction_Trace"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Abstraction_Trace-extension_Trace-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -110,6 +124,7 @@
             "name": "Artifact_Document",
             "memberEnd": "Artifact_Document-extension_Document Document-base_Artifact"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -119,11 +134,13 @@
               "aggregation": "composite",
               "association": "Artifact_Document"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Artifact_Document-extension_Document-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -134,6 +151,7 @@
             "name": "Artifact_Executable",
             "memberEnd": "Artifact_Executable-extension_Executable Executable-base_Artifact"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -143,11 +161,13 @@
               "aggregation": "composite",
               "association": "Artifact_Executable"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Artifact_Executable-extension_Executable-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -158,6 +178,7 @@
             "name": "Artifact_File",
             "memberEnd": "Artifact_File-extension_File File-base_Artifact"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -167,11 +188,13 @@
               "aggregation": "composite",
               "association": "Artifact_File"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Artifact_File-extension_File-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -182,6 +205,7 @@
             "name": "Artifact_Library",
             "memberEnd": "Artifact_Library-extension_Library Library-base_Artifact"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -191,11 +215,13 @@
               "aggregation": "composite",
               "association": "Artifact_Library"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Artifact_Library-extension_Library-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -206,6 +232,7 @@
             "name": "Artifact_Script",
             "memberEnd": "Artifact_Script-extension_Script Script-base_Artifact"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -215,11 +242,13 @@
               "aggregation": "composite",
               "association": "Artifact_Script"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Artifact_Script-extension_Script-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -230,6 +259,7 @@
             "name": "Artifact_Source",
             "memberEnd": "Artifact_Source-extension_Source Source-base_Artifact"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -239,11 +269,13 @@
               "aggregation": "composite",
               "association": "Artifact_Source"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Artifact_Source-extension_Source-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -254,6 +286,7 @@
             "name": "BehavioralFeature_Create",
             "memberEnd": "BehavioralFeature_Create-extension_Create Create-base_BehavioralFeature"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -263,11 +296,13 @@
               "aggregation": "composite",
               "association": "BehavioralFeature_Create"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "BehavioralFeature_Create-extension_Create-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -278,6 +313,7 @@
             "name": "BehavioralFeature_Destroy",
             "memberEnd": "BehavioralFeature_Destroy-extension_Destroy Destroy-base_BehavioralFeature"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -287,11 +323,13 @@
               "aggregation": "composite",
               "association": "BehavioralFeature_Destroy"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "BehavioralFeature_Destroy-extension_Destroy-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -302,6 +340,7 @@
             "name": "Class_Auxiliary",
             "memberEnd": "Class_Auxiliary-extension_Auxiliary Auxiliary-base_Class"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -311,11 +350,13 @@
               "aggregation": "composite",
               "association": "Class_Auxiliary"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Class_Auxiliary-extension_Auxiliary-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -326,6 +367,7 @@
             "name": "Class_Focus",
             "memberEnd": "Class_Focus-extension_Focus Focus-base_Class"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -335,11 +377,13 @@
               "aggregation": "composite",
               "association": "Class_Focus"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Class_Focus-extension_Focus-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -350,6 +394,7 @@
             "name": "Class_ImplementationClass",
             "memberEnd": "Class_ImplementationClass-extension_ImplementationClass ImplementationClass-base_Class"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -359,11 +404,13 @@
               "aggregation": "composite",
               "association": "Class_ImplementationClass"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Class_ImplementationClass-extension_ImplementationClass-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -374,6 +421,7 @@
             "name": "Class_Metaclass",
             "memberEnd": "Class_Metaclass-extension_Metaclass Metaclass-base_Class"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -383,11 +431,13 @@
               "aggregation": "composite",
               "association": "Class_Metaclass"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Class_Metaclass-extension_Metaclass-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -398,6 +448,7 @@
             "name": "Class_Type",
             "memberEnd": "Class_Type-extension_Type Type-base_Class"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -407,11 +458,13 @@
               "aggregation": "composite",
               "association": "Class_Type"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Class_Type-extension_Type-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -422,6 +475,7 @@
             "name": "Class_Utility",
             "memberEnd": "Class_Utility-extension_Utility Utility-base_Class"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -431,11 +485,13 @@
               "aggregation": "composite",
               "association": "Class_Utility"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Class_Utility-extension_Utility-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -446,6 +502,7 @@
             "name": "Classifier_Realization",
             "memberEnd": "Classifier_Realization-extension_Realization Realization-base_Classifier"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -455,11 +512,13 @@
               "aggregation": "composite",
               "association": "Classifier_Realization"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Classifier_Realization-extension_Realization-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -470,6 +529,7 @@
             "name": "Classifier_Specification",
             "memberEnd": "Classifier_Specification-extension_Specification Specification-base_Classifier"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -479,11 +539,13 @@
               "aggregation": "composite",
               "association": "Classifier_Specification"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Classifier_Specification-extension_Specification-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -494,6 +556,7 @@
             "name": "Component_Entity",
             "memberEnd": "Component_Entity-extension_Entity Entity-base_Component"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -503,11 +566,13 @@
               "aggregation": "composite",
               "association": "Component_Entity"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Component_Entity-extension_Entity-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -518,6 +583,7 @@
             "name": "Component_Implement",
             "memberEnd": "Component_Implement-extension_Implement Implement-base_Component"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -527,11 +593,13 @@
               "aggregation": "composite",
               "association": "Component_Implement"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Component_Implement-extension_Implement-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -542,6 +610,7 @@
             "name": "Component_Process",
             "memberEnd": "Component_Process-extension_Process Process-base_Component"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -551,11 +620,13 @@
               "aggregation": "composite",
               "association": "Component_Process"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Component_Process-extension_Process-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -566,6 +637,7 @@
             "name": "Component_Service",
             "memberEnd": "Component_Service-extension_Service Service-base_Component"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -575,11 +647,13 @@
               "aggregation": "composite",
               "association": "Component_Service"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Component_Service-extension_Service-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -590,6 +664,7 @@
             "name": "Component_Subsystem",
             "memberEnd": "Component_Subsystem-extension_Subsystem Subsystem-base_Component"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -599,11 +674,13 @@
               "aggregation": "composite",
               "association": "Component_Subsystem"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Component_Subsystem-extension_Subsystem-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -614,6 +691,7 @@
             "name": "Package_Framework",
             "memberEnd": "Package_Framework-extension_Framework Framework-base_Package"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -623,11 +701,13 @@
               "aggregation": "composite",
               "association": "Package_Framework"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Package_Framework-extension_Framework-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -638,6 +718,7 @@
             "name": "Package_ModelLibrary",
             "memberEnd": "Package_ModelLibrary-extension_ModelLibrary ModelLibrary-base_Package"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -647,11 +728,13 @@
               "aggregation": "composite",
               "association": "Package_ModelLibrary"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Package_ModelLibrary-extension_ModelLibrary-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -662,6 +745,7 @@
             "name": "Usage_Call",
             "memberEnd": "Usage_Call-extension_Call Call-base_Usage"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -671,11 +755,13 @@
               "aggregation": "composite",
               "association": "Usage_Call"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Usage_Call-extension_Call-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -686,6 +772,7 @@
             "name": "Usage_Create",
             "memberEnd": "Usage_Create-extension_Create Create-base_Usage"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -695,11 +782,13 @@
               "aggregation": "composite",
               "association": "Usage_Create"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Usage_Create-extension_Create-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -710,6 +799,7 @@
             "name": "Usage_Instantiate",
             "memberEnd": "Usage_Instantiate-extension_Instantiate Instantiate-base_Usage"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -719,11 +809,13 @@
               "aggregation": "composite",
               "association": "Usage_Instantiate"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Usage_Instantiate-extension_Instantiate-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -734,6 +826,7 @@
             "name": "Usage_Responsibility",
             "memberEnd": "Usage_Responsibility-extension_Responsibility Responsibility-base_Usage"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -743,11 +836,13 @@
               "aggregation": "composite",
               "association": "Usage_Responsibility"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Usage_Responsibility-extension_Responsibility-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -758,6 +853,7 @@
             "name": "Usage_Send",
             "memberEnd": "Usage_Send-extension_Send Send-base_Usage"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -767,11 +863,13 @@
               "aggregation": "composite",
               "association": "Usage_Send"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Usage_Send-extension_Send-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -781,6 +879,7 @@
             "xmi:id": "Auxiliary",
             "name": "Auxiliary"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -788,11 +887,13 @@
               "name": "base_Class",
               "association": "Class_Auxiliary"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Class"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -802,6 +903,7 @@
             "xmi:id": "Call",
             "name": "Call"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -809,11 +911,13 @@
               "name": "base_Usage",
               "association": "Usage_Call"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Usage"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -823,6 +927,7 @@
             "xmi:id": "Create",
             "name": "Create"
           },
+          "_parent": "_",
           "ownedAttribute": [
             {
               "_attributes": {
@@ -831,11 +936,13 @@
                 "name": "base_BehavioralFeature",
                 "association": "BehavioralFeature_Create"
               },
+              "_parent": "_",
               "type": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#BehavioralFeature"
-                }
+                },
+                "_parent": "_"
               }
             },
             {
@@ -845,11 +952,13 @@
                 "name": "base_Usage",
                 "association": "Usage_Create"
               },
+              "_parent": "_",
               "type": {
                 "_attributes": {
                   "xmi:type": "uml:Class",
                   "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Usage"
-                }
+                },
+                "_parent": "_"
               }
             }
           ]
@@ -860,6 +969,7 @@
             "xmi:id": "Derive",
             "name": "Derive"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -867,11 +977,13 @@
               "name": "base_Abstraction",
               "association": "Abstraction_Derive"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Abstraction"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -881,6 +993,7 @@
             "xmi:id": "Destroy",
             "name": "Destroy"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -888,11 +1001,13 @@
               "name": "base_BehavioralFeature",
               "association": "BehavioralFeature_Destroy"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#BehavioralFeature"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -902,12 +1017,14 @@
             "xmi:id": "Document",
             "name": "Document"
           },
+          "_parent": "_",
           "generalization": {
             "_attributes": {
               "xmi:type": "uml:Generalization",
               "xmi:id": "Document-_generalization.0",
               "general": "File"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -916,11 +1033,13 @@
               "name": "base_Artifact",
               "association": "Artifact_Document"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Artifact"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -930,6 +1049,7 @@
             "xmi:id": "Entity",
             "name": "Entity"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -937,11 +1057,13 @@
               "name": "base_Component",
               "association": "Component_Entity"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Component"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -951,12 +1073,14 @@
             "xmi:id": "Executable",
             "name": "Executable"
           },
+          "_parent": "_",
           "generalization": {
             "_attributes": {
               "xmi:type": "uml:Generalization",
               "xmi:id": "Executable-_generalization.0",
               "general": "File"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -965,11 +1089,13 @@
               "name": "base_Artifact",
               "association": "Artifact_Executable"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Artifact"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -979,6 +1105,7 @@
             "xmi:id": "File",
             "name": "File"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -986,11 +1113,13 @@
               "name": "base_Artifact",
               "association": "Artifact_File"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Artifact"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1000,6 +1129,7 @@
             "xmi:id": "Focus",
             "name": "Focus"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1007,11 +1137,13 @@
               "name": "base_Class",
               "association": "Class_Focus"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Class"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1021,6 +1153,7 @@
             "xmi:id": "Framework",
             "name": "Framework"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1028,11 +1161,13 @@
               "name": "base_Package",
               "association": "Package_Framework"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Package"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1042,6 +1177,7 @@
             "xmi:id": "Implement",
             "name": "Implement"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1049,11 +1185,13 @@
               "name": "base_Component",
               "association": "Component_Implement"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Component"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1063,6 +1201,7 @@
             "xmi:id": "ImplementationClass",
             "name": "ImplementationClass"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1070,11 +1209,13 @@
               "name": "base_Class",
               "association": "Class_ImplementationClass"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Class"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1084,6 +1225,7 @@
             "xmi:id": "Instantiate",
             "name": "Instantiate"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1091,11 +1233,13 @@
               "name": "base_Usage",
               "association": "Usage_Instantiate"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Usage"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1105,12 +1249,14 @@
             "xmi:id": "Library",
             "name": "Library"
           },
+          "_parent": "_",
           "generalization": {
             "_attributes": {
               "xmi:type": "uml:Generalization",
               "xmi:id": "Library-_generalization.0",
               "general": "File"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -1119,11 +1265,13 @@
               "name": "base_Artifact",
               "association": "Artifact_Library"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Artifact"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1133,6 +1281,7 @@
             "xmi:id": "Metaclass",
             "name": "Metaclass"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1140,11 +1289,13 @@
               "name": "base_Class",
               "association": "Class_Metaclass"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Class"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1154,6 +1305,7 @@
             "xmi:id": "ModelLibrary",
             "name": "ModelLibrary"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1161,11 +1313,13 @@
               "name": "base_Package",
               "association": "Package_ModelLibrary"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Package"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1175,6 +1329,7 @@
             "xmi:id": "Process",
             "name": "Process"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1182,11 +1337,13 @@
               "name": "base_Component",
               "association": "Component_Process"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Component"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1196,6 +1353,7 @@
             "xmi:id": "Realization",
             "name": "Realization"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1203,11 +1361,13 @@
               "name": "base_Classifier",
               "association": "Classifier_Realization"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Classifier"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1217,6 +1377,7 @@
             "xmi:id": "Refine",
             "name": "Refine"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1224,11 +1385,13 @@
               "name": "base_Abstraction",
               "association": "Abstraction_Refine"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Abstraction"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1238,6 +1401,7 @@
             "xmi:id": "Responsibility",
             "name": "Responsibility"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1245,11 +1409,13 @@
               "name": "base_Usage",
               "association": "Usage_Responsibility"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Usage"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1259,12 +1425,14 @@
             "xmi:id": "Script",
             "name": "Script"
           },
+          "_parent": "_",
           "generalization": {
             "_attributes": {
               "xmi:type": "uml:Generalization",
               "xmi:id": "Script-_generalization.0",
               "general": "File"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -1273,11 +1441,13 @@
               "name": "base_Artifact",
               "association": "Artifact_Script"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Artifact"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1287,6 +1457,7 @@
             "xmi:id": "Send",
             "name": "Send"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1294,11 +1465,13 @@
               "name": "base_Usage",
               "association": "Usage_Send"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Usage"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1308,6 +1481,7 @@
             "xmi:id": "Service",
             "name": "Service"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1315,11 +1489,13 @@
               "name": "base_Component",
               "association": "Component_Service"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Component"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1329,12 +1505,14 @@
             "xmi:id": "Source",
             "name": "Source"
           },
+          "_parent": "_",
           "generalization": {
             "_attributes": {
               "xmi:type": "uml:Generalization",
               "xmi:id": "Source-_generalization.0",
               "general": "File"
-            }
+            },
+            "_parent": "_"
           },
           "ownedAttribute": {
             "_attributes": {
@@ -1343,11 +1521,13 @@
               "name": "base_Artifact",
               "association": "Artifact_Source"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Artifact"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1357,6 +1537,7 @@
             "xmi:id": "Specification",
             "name": "Specification"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1364,11 +1545,13 @@
               "name": "base_Classifier",
               "association": "Classifier_Specification"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Classifier"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1378,6 +1561,7 @@
             "xmi:id": "Subsystem",
             "name": "Subsystem"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1385,11 +1569,13 @@
               "name": "base_Component",
               "association": "Component_Subsystem"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Component"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1399,6 +1585,7 @@
             "xmi:id": "Trace",
             "name": "Trace"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1406,11 +1593,13 @@
               "name": "base_Abstraction",
               "association": "Abstraction_Trace"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Abstraction"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1420,6 +1609,7 @@
             "xmi:id": "Type",
             "name": "Type"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1427,11 +1617,13 @@
               "name": "base_Class",
               "association": "Class_Type"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Class"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1441,6 +1633,7 @@
             "xmi:id": "Utility",
             "name": "Utility"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1448,11 +1641,13 @@
               "name": "base_Class",
               "association": "Class_Utility"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Class"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1463,6 +1658,7 @@
             "name": "Component_BuildComponent",
             "memberEnd": "Component_BuildComponent-extension_BuildComponent BuildComponent-base_Component"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -1472,11 +1668,13 @@
               "aggregation": "composite",
               "association": "Component_BuildComponent"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Component_BuildComponent-extension_BuildComponent-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1487,6 +1685,7 @@
             "name": "Model_Metamodel",
             "memberEnd": "Model_Metamodel-extension_Metamodel Metamodel-base_Model"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -1496,11 +1695,13 @@
               "aggregation": "composite",
               "association": "Model_Metamodel"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Model_Metamodel-extension_Metamodel-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1511,6 +1712,7 @@
             "name": "Model_SystemModel",
             "memberEnd": "Model_SystemModel-extension_SystemModel SystemModel-base_Model"
           },
+          "_parent": "_",
           "ownedEnd": {
             "_attributes": {
               "xmi:type": "uml:ExtensionEnd",
@@ -1520,11 +1722,13 @@
               "aggregation": "composite",
               "association": "Model_SystemModel"
             },
+            "_parent": "_",
             "lowerValue": {
               "_attributes": {
                 "xmi:type": "uml:LiteralInteger",
                 "xmi:id": "Model_SystemModel-extension_SystemModel-_lowerValue"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1534,6 +1738,7 @@
             "xmi:id": "BuildComponent",
             "name": "BuildComponent"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1541,11 +1746,13 @@
               "name": "base_Component",
               "association": "Component_BuildComponent"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Component"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1555,6 +1762,7 @@
             "xmi:id": "Metamodel",
             "name": "Metamodel"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1562,11 +1770,13 @@
               "name": "base_Model",
               "association": "Model_Metamodel"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Model"
-              }
+              },
+              "_parent": "_"
             }
           }
         },
@@ -1576,6 +1786,7 @@
             "xmi:id": "SystemModel",
             "name": "SystemModel"
           },
+          "_parent": "_",
           "ownedAttribute": {
             "_attributes": {
               "xmi:type": "uml:Property",
@@ -1583,11 +1794,13 @@
               "name": "base_Model",
               "association": "Model_SystemModel"
             },
+            "_parent": "_",
             "type": {
               "_attributes": {
                 "xmi:type": "uml:Class",
                 "href": "http://www.omg.org/spec/UML/20161101/UML.xmi#Model"
-              }
+              },
+              "_parent": "_"
             }
           }
         }
@@ -1600,7 +1813,8 @@
         "name": "org.omg.xmi.nsPrefix",
         "value": "StandardProfile",
         "element": "_0"
-      }
+      },
+      "_parent": "_"
     }
   }
 }

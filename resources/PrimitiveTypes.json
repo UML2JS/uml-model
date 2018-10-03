@@ -1,9 +1,10 @@
 {
   "_declaration": {
     "_attributes": {
-      "version": "1.0",
+      "version": 1,
       "encoding": "UTF-8"
-    }
+    },
+    "_parent": "_"
   },
   "xmi:XMI": {
     "_attributes": {
@@ -11,6 +12,7 @@
       "xmlns:uml": "http://www.omg.org/spec/UML/20161101",
       "xmlns:mofext": "http://www.omg.org/spec/MOF/20131001"
     },
+    "_parent": "_",
     "uml:Package": {
       "_attributes": {
         "xmi:type": "uml:Package",
@@ -18,6 +20,7 @@
         "name": "PrimitiveTypes",
         "URI": "http://www.omg.org/spec/PrimitiveTypes/20161101"
       },
+      "_parent": "_",
       "packagedElement": [
         {
           "_attributes": {
@@ -25,13 +28,16 @@
             "xmi:id": "Boolean",
             "name": "Boolean"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "Boolean-_ownedComment.0",
               "annotatedElement": "Boolean"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Boolean is used for logical expressions, consisting of the predefined values true and false."
             }
           }
@@ -42,13 +48,16 @@
             "xmi:id": "Integer",
             "name": "Integer"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "Integer-_ownedComment.0",
               "annotatedElement": "Integer"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Integer is a primitive type representing integer values."
             }
           }
@@ -59,13 +68,16 @@
             "xmi:id": "Real",
             "name": "Real"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "Real-_ownedComment.0",
               "annotatedElement": "Real"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "Real is a primitive type representing the mathematical concept of real."
             }
           }
@@ -76,13 +88,16 @@
             "xmi:id": "String",
             "name": "String"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "String-_ownedComment.0",
               "annotatedElement": "String"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "String is a sequence of characters in some suitable character set used to display information about the model. Character sets may include non-Roman alphabets and characters."
             }
           }
@@ -93,13 +108,16 @@
             "xmi:id": "UnlimitedNatural",
             "name": "UnlimitedNatural"
           },
+          "_parent": "_",
           "ownedComment": {
             "_attributes": {
               "xmi:type": "uml:Comment",
               "xmi:id": "UnlimitedNatural-_ownedComment.0",
               "annotatedElement": "UnlimitedNatural"
             },
+            "_parent": "_",
             "body": {
+              "_parent": "_",
               "_text": "UnlimitedNatural is a primitive type representing unlimited natural values."
             }
           }
@@ -114,7 +132,8 @@
           "name": "org.omg.xmi.nsPrefix",
           "value": "primitives",
           "element": "_0"
-        }
+        },
+        "_parent": "_"
       },
       {
         "_attributes": {
@@ -123,7 +142,8 @@
           "name": "org.omg.xmi.schemaType",
           "value": "http://www.w3.org/2001/XMLSchema#boolean",
           "element": "Boolean"
-        }
+        },
+        "_parent": "_"
       },
       {
         "_attributes": {
@@ -132,7 +152,8 @@
           "name": "org.omg.xmi.schemaType",
           "value": "http://www.w3.org/2001/XMLSchema#integer",
           "element": "Integer"
-        }
+        },
+        "_parent": "_"
       },
       {
         "_attributes": {
@@ -141,7 +162,8 @@
           "name": "org.omg.xmi.schemaType",
           "value": "http://www.w3.org/2001/XMLSchema#double",
           "element": "Real"
-        }
+        },
+        "_parent": "_"
       },
       {
         "_attributes": {
@@ -150,7 +172,8 @@
           "name": "org.omg.xmi.schemaType",
           "value": "http://www.w3.org/2001/XMLSchema#string",
           "element": "String"
-        }
+        },
+        "_parent": "_"
       },
       {
         "_attributes": {
@@ -159,7 +182,8 @@
           "name": "org.omg.xmi.schemaType",
           "value": "http://www.w3.org/2001/XMLSchema#string",
           "element": "UnlimitedNatural"
-        }
+        },
+        "_parent": "_"
       }
     ]
   }

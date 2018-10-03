@@ -13,7 +13,11 @@ function xmi2json(path) {
 
   var options = {
     compact: true,
-    spaces: 2
+    spaces: 2,
+    nativeType: true,
+    nativeTypeAttributes: true,
+    addParent: true,
+    instructionHasAttributes: true
   };
   return _xmlJs.default.xml2json(xml, options);
 }
@@ -23,8 +27,7 @@ function createJson(sourcePath, targetPath) {
   return _fs.default.writeFileSync(targetPath, json, {
     encoding: 'utf-8'
   });
-} // Primitivetypes
-
+}
 
 createJson("".concat(cwd, "/resources/PrimitiveTypes.xmi"), "".concat(cwd, "/resources/PrimitiveTypes.json"));
 createJson("".concat(cwd, "/resources/StandardProfile.xmi"), "".concat(cwd, "/resources/StandardProfile.json"));
